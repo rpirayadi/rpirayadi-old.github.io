@@ -24,7 +24,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/rouzbeh2.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -43,7 +43,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
+  title: 'Rouzbeh Pirayadi',
   description: "Example site built with Tim Baker's react resume template",
 };
 
@@ -109,8 +109,8 @@ export const aboutData: About = {
     {label: 'Location', text: 'Tehran, Iran', Icon: MapIcon},
     {label: 'Age', text: '22', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Iranian', Icon: FlagIcon},
-    {label: 'Interests', text: 'In memory processing, Hardware Architecture', Icon: SparklesIcon},
     {label: 'Study', text: 'Sharif University of Technology', Icon: AcademicCapIcon},
+    {label: 'Interests', text: 'In memory processing, Hardware Architecture', Icon: SparklesIcon},
   ],
 };
 
@@ -272,8 +272,8 @@ export const education: TimelineItem[] = [
   },
   {
     date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
+    location: 'Allameh Helli High school',
+    title: 'Diploma of Math',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
@@ -300,6 +300,21 @@ export const experience: TimelineItem[] = [
         anything else that would be useful for an employer to know.
       </p>
     ),
+  },
+];
+
+export const research: TimelineItem[] = [
+  {
+    date: 'April 2007',
+    location: 'Sharif University of Technology',
+    title: 'Bachelors of Science in Computer Engineering',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    date: 'March 2003',
+    location: 'Allameh Helli High school',
+    title: 'Diploma of Math',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
