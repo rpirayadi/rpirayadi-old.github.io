@@ -1,7 +1,6 @@
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
-  BuildingOffice2Icon,
   CalendarIcon,
   FlagIcon,
   MapIcon,
@@ -110,7 +109,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Tehran, Iran', Icon: MapIcon},
     {label: 'Age', text: '22', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Iranian', Icon: FlagIcon},
-    {label: 'Interests', text: 'In memory processing, AI accelerators, Hardware Architecture', Icon: SparklesIcon},
+    {label: 'Interests', text: 'In memory processing, Hardware Architecture', Icon: SparklesIcon},
     {label: 'Study', text: 'Sharif University of Technology', Icon: AcademicCapIcon},
   ],
 };
